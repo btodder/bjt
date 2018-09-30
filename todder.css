@@ -1,7 +1,13 @@
 /*Style the header*/
 h1 {
-color: orange;
+font-size: 100%;
+color: Black;
+letter-spacing: 3px;
+
 text-align: center;
+}
+p {
+font-size: 0.875em;
 }
 
 /*test layout*/
@@ -14,22 +20,22 @@ text-align: center;
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+    'header header header header header'
+    'menu main main right right'
+    'menu footer footer footer footer ';
+  grid-gap: 8px;
+  background-color: #c9b5b6;
+  padding: 8px;
 }
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #555555; /* Black */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -41,7 +47,8 @@ text-align: center;
     cursor: pointer;
 }
 
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */
-.button5 {background-color: #555555;} /* Black */
+.button2 {background-color: #008CBA; color: black;} /* Blue */
+.button3 {background-color: #f44336; color: black;} /* Red */
+.button4 {background-color: #808080; color: black;} /* Gray */
+.button5 {background-color: #555555; color: black;} /* Black */
+.button6 {background-color: #c9b5b6; color: black;} /* Skin */
