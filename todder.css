@@ -27,19 +27,20 @@ a:hover, a:active {
 }
 /*test layout*/
 .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
+.item2 { grid-area: left; }
+.item3 { grid-area: center; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header'
-    'menu main main right right'
-    'menu footer footer footer footer ';
+    'header header header header header header'
+    'left left center center right right'
+    'left left center center footer footer '
+    'footer footer footer footer footer footer ';
   grid-gap: 8px;
-  background-color: #c9b5b6;
+  background-color: white;
   padding: 8px;
 }
 .grid-container > div {
