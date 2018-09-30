@@ -1,8 +1,8 @@
 /*Style the header*/
-/*h1 {
+h1 {
 color: orange;
 text-align: center;
-}*/
+}
 
 /*test layout*/
 .item1 { grid-area: header; }
