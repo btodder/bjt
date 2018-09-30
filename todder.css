@@ -40,7 +40,7 @@ a:hover, a:active {
     'left left center center footer footer '
     'footer footer footer footer footer footer ';
   grid-gap: 8px;
-  background-color: transparent;
+  background-color: white;
   padding: 8px;
 }
 .grid-container > div {
