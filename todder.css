@@ -3,7 +3,6 @@ h1 {
 font-size: 100%;
 color: Black;
 letter-spacing: 3px;
-
 text-align: center;
 }
 
@@ -11,6 +10,7 @@ p {
 font-size: 0.875em;
 color: Black;
 letter-spacing: 1px;
+text-align: center;
 }
 
 a:link, a:visited {
