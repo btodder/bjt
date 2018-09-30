@@ -6,10 +6,25 @@ letter-spacing: 3px;
 
 text-align: center;
 }
+
 p {
 font-size: 0.875em;
+color: Black;
+letter-spacing: 1px;
 }
 
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: gray;
+}
 /*test layout*/
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
@@ -35,7 +50,7 @@ font-size: 0.875em;
 }
 
 .button {
-    background-color: #555555; /* Black */
+    background-color: #808080; /* gray */
     border: none;
     color: white;
     padding: 15px 32px;
